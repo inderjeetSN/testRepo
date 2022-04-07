@@ -1,4 +1,4 @@
-**Ignite IT service productivity with Client Software Distribution 2.0**
+<h1>**Ignite IT service productivity with Client Software Distribution 2.0**<h1>
 
 **Lab 1:**
 
@@ -29,26 +29,21 @@ provider through CSD 2.0.
 3.  Search for "*Client Software Distribution 2.0*" and install it.
     Perform same action for "*Jamf Spoke*"
 
-![](./media/image1.png){width="6.263888888888889in"
-height="1.8979166666666667in"}
+![](./media/image1.png)
 
-![](./media/image2.png){width="6.263888888888889in"
-height="2.2916666666666665in"}
+![](./media/image2.png)
 
 A successful installation displays following result:
 
-![](./media/image3.png){width="6.263888888888889in"
-height="1.204569116360455in"}
+![](./media/image3.png)
 
 CSD 2.0 Modules:
 
-![](./media/image4.png){width="6.263888888888889in"
-height="1.9548611111111112in"}
+![](./media/image4.png)
 
 Jamf Modules:
 
-![](./media/image5.png){width="6.263888888888889in"
-height="1.8055555555555556in"}
+![](./media/image5.png)
 
 **CSD 2.0 - JAMF Integration:**
 
@@ -71,13 +66,11 @@ a.  Navigate to **Client Software Distribution 2.0** \> **Providers**.
 
 b.  Open the record **Jamf**.
 
-> ![](./media/image6.png){width="5.9152045056867895in"
-> height="1.5397889326334209in"}
+> ![](./media/image6.png)
 
 c.  Verify that the flows are configured correctly in the record.
 
-> ![](./media/image7.png){width="6.263888888888889in"
-> height="1.7770833333333333in"}
+> ![](./media/image7.png)
 
 **Note:** You can configure the default flows as per your requirement.
 
@@ -88,8 +81,7 @@ consume license information from SAM (Software Asset Management) tables.
 
 Use the first property shown below to make your choice.
 
-![](./media/image8.png){width="6.263888888888889in"
-height="2.7979166666666666in"}
+![](./media/image8.png)
 
 Edit other properties as per requirement.
 
@@ -121,13 +113,11 @@ the Jamf credential to authenticate ServiceNow requests.
 
 2.  Open the record, **Jamf**.
 
-> ![](./media/image9.png){width="6.263888888888889in"
-> height="1.5581146106736659in"}
+> ![](./media/image9.png)
 
 3.  Click the **Create New Connection & Credential** related link.
 
-> ![](./media/image10.png){width="5.8410728346456695in"
-> height="3.309078083989501in"}
+> ![](./media/image10.png)
 
 4.  On the form, fill the required values.
 
@@ -148,21 +138,18 @@ details of the Jamf server.
 
 2.  Click **New**.
 
-> ![](./media/image11.png){width="6.263888888888889in"
-> height="1.5472222222222223in"}
+> ![](./media/image11.png)
 
 3.  On the form, fill the required values.
 
-> ![](./media/image12.png){width="6.263888888888889in"
-> height="1.0820713035870517in"}
+> ![](./media/image12.png)
 
 4.  Right-click the form header and click **Submit**.
 
 5.  Click the **Discover Now** related link to discover all applications
     and retrieve data from the server.
 
-> ![](./media/image13.png){width="6.263888888888889in"
-> height="1.4548611111111112in"}
+> ![](./media/image13.png)
 
 6.  Discover and Store Data subflow is triggered. Data is retrieved and
     in stored in the Jamf tables.
@@ -174,14 +161,12 @@ Spoke.
 Once subflow execution is complete, data should be populated in Jamf
 spoke tables.
 
-![](./media/image14.png){width="6.263888888888889in"
-height="2.7111111111111112in"}
+![](./media/image14.png)
 
 Discovery subflow populates "*Applications*", "*Groups*" and
 "*Policies*" from Jamf server. Verify it from Jamf Modules.
 
-![](./media/image15.png){width="6.465651793525809in"
-height="1.7633595800524935in"}
+![](./media/image15.png)
 
 **Licensing:**
 
@@ -223,13 +208,11 @@ than 0, CSD 2.0 assumes that the license is available for the software.
 
 2.  Click New.
 
-![](./media/image16.png){width="6.263888888888889in"
-height="1.773611111111111in"}
+![](./media/image16.png)
 
 3.  On the form, fill the required values.
 
-![](./media/image17.png){width="6.263888888888889in"
-height="2.6458333333333335in"}
+![](./media/image17.png)
 
 4.  Click Submit.
 
@@ -268,8 +251,7 @@ appears.
 
 2.  Open the required record.
 
-> ![](./media/image18.png){width="5.150585083114611in"
-> height="2.1019181977252845in"}
+> ![](./media/image18.png)
 
 3.  To link to an existing model, click the magnifying glass icon in the
     **CSD software**
@@ -280,13 +262,11 @@ appears.
 
 Form view for SAM licensing:
 
-![](./media/image19.png){width="4.097952755905512in"
-height="1.6968799212598424in"}
+![](./media/image19.png)
 
 Form view for CSD 2.0 licensing:
 
-![](./media/image20.png){width="5.734620516185477in"
-height="2.279861111111111in"}
+![](./media/image20.png)
 
 4.  To create a model, click **Create Software Model** under related
     link.
@@ -332,13 +312,11 @@ height="2.279861111111111in"}
     applications's form view or click "Create Software Configuration"
     from related links.
 
-> ![](./media/image21.png){width="4.93347987751531in"
-> height="1.965188101487314in"}
+> ![](./media/image21.png)
 
 2.  On the form, fill the required values.
 
-> ![](./media/image22.png){width="5.880847550306211in"
-> height="1.039905949256343in"}
+> ![](./media/image22.png)
 
 3.  Click Submit.
 
@@ -370,16 +348,14 @@ height="2.279861111111111in"}
 
 4.  On the form, fill the required values.
 
-> ![](./media/image24.png){width="6.169642388451444in"
-> height="4.385097331583552in"}
+> ![](./media/image24.png)
 
 5.  Right-click the form header and click **Save**.
 
 6.  In the **CSD Catalog Item Fulfillment Configuration** tab, open the
     default record and provide these values as per your requirement.
 
-> ![](./media/image25.png){width="6.263888888888889in"
-> height="3.361111111111111in"}
+> ![](./media/image25.png)
 
 7.  Click Update.
 
@@ -418,8 +394,7 @@ service catalog order:
 
 *Catalog item order view:*
 
-![](./media/image26.png){width="6.263888888888889in"
-height="2.907638888888889in"}
+![](./media/image26.png)
 
 **Note:** The device must have its serial number populated in the device
 table.
@@ -449,8 +424,7 @@ software with no end date.
 
 Navigate to Client **Software Distribution 2.0 \> Requested Software.**
 
-![](./media/image27.png){width="6.967352362204724in"
-height="1.7032163167104113in"}
+![](./media/image27.png)
 
 **Bonus Lab:**
 
@@ -483,8 +457,7 @@ Ensure that the user has one of the two mentioned set of roles.
 
 > click **OK**. You must select a date later than the current date.
 
-![](./media/image28.png){width="5.55847987751531in"
-height="2.807587489063867in"}
+![](./media/image28.png)
 
 **Revoke Software:**
 
@@ -509,5 +482,4 @@ Ensure that the user has one of the two mentioned set of roles.
 
 3.  Under Related Links click **Revoke Software**
 
-![](./media/image29.png){width="5.492690288713911in"
-height="1.5016601049868767in"}
+![](./media/image29.png)
