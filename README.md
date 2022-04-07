@@ -1,6 +1,6 @@
-<h1>**Ignite IT service productivity with Client Software Distribution 2.0**<h1>
+<h1>**Ignite IT service productivity with Client Software Distribution 2.0**</h1>
 
-**Lab 1:**
+<h2>**Lab 1:**</h2>
 
 **Overview:**
 
