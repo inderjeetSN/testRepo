@@ -22,7 +22,7 @@ This lab guide will walk you through the process of using JAMF software provider
 <img src="./media/image1.png"
 style="width:8.26389in;height:2.89792in" />
 
-<img src="./media/image1.png"
+<img src="./media/image2.png"
 style="width:6.26389in;height:1.89792in" />
 
 A successful installation displays following result:
