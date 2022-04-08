@@ -79,7 +79,7 @@ consume license information from SAM (Software Asset Management) tables.
 
 Use the first property shown below to make your choice.
 
-![image8](https://user-images.githubusercontent.com/96470152/162376781-300095c2-a1e6-4739-ad8e-e3d5c475d934.png
+<img src="https://user-images.githubusercontent.com/96470152/162376781-300095c2-a1e6-4739-ad8e-e3d5c475d934.png" />
 
    **Note:** Edit other properties as per requirement.
 
