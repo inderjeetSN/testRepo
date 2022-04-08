@@ -18,9 +18,10 @@ This lab guide will walk you through the process of using JAMF software provider
 1.	Navigate to Plugins from navigator.
 2.	List of  all available applications will be displayed.
 3.	Search for “Client Software Distribution 2.0” and install it. Perform same action for “Jamf Spoke”.
+	
 
-<img src="./media/image1.png"
-style="width:6.26389in;height:1.89792in" border="10"/>
+![Installing CSD 2.0](media/image1.png)
+
 
 <img src="./media/image2.png"
 style="width:6.26389in;height:1.89792in" />
