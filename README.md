@@ -1,51 +1,47 @@
-# Ignite IT service productivity with Client Software Distribution 2.0
+# Ignite IT service productivity with Client Software Distribution 2.0
+
 
 ## Lab 1:
 
-### Overview:
+### Overview
 
-*Client Software Distribution 2.0* application (*CSD 2.0*) application
-enables administrators to distribute software from the service catalog
-using third-party management systems.
+Client Software Distribution 2.0 application (CSD 2.0) application enables administrators to distribute software from the service catalog using third-party management systems.
+CSD 2.0 enables an administrator to create all the records necessary to deploy software from service catalog requests, including software models and catalog items.
 
-CSD 2.0 enables an administrator to create all the records necessary to
-deploy software from service catalog requests, including software models
-and catalog items.
+You can use the CSD 2.0 application to automate the deployment and revocation of software from a third-party software provider using the custom flows. Deployment and revocation is accomplished using provider-specific spoke flows, sub-flows, and actions. 
 
-You can use the CSD 2.0 application to automate the deployment and
-revocation of software from a third-party software provider using the
-custom flows. Deployment and revocation is accomplished using
-provider-specific spoke flows, sub-flows, and actions. 
+This lab guide will walk you through the process of using JAMF software provider through CSD 2.0.
 
-This lab guide will walk you through the process of using JAMF software
-provider through CSD 2.0.
 
-**Installation:**
+### Installation:
 
-1.  Navigate to Plugins from navigator.
+1.	Navigate to Plugins from navigator.
+2.	List of  all available applications will be displayed.
+3.	Search for “Client Software Distribution 2.0” and install it. Perform same action for “Jamf Spoke”.
 
-2.  List of all available applications will be displayed.
+<img src="./media/image1.png"
+style="width:6.26389in;height:1.89792in" />
 
-3.  Search for "*Client Software Distribution 2.0*" and install it.
-    Perform same action for "*Jamf Spoke*"
-
-![](./media/image1.png)
-
-![](./media/image2.png)
+<img src="./media/image1.png"
+style="width:6.26389in;height:1.89792in" />
 
 A successful installation displays following result:
 
-![](./media/image3.png)
+<img src="./media/image3.png"
+style="width:6.26389in;height:1.20457in" />
 
-CSD 2.0 Modules:
+**CSD 2.0 Modules**
 
-![](./media/image4.png)
+<img src="./media/image4.png"
+style="width:6.26389in;height:1.95486in" />
 
-Jamf Modules:
+**Jamf Modules:**
 
-![](./media/image5.png)
+<img src="./media/image5.png"
+style="width:6.26389in;height:1.80556in" />
 
-**CSD 2.0 - JAMF Integration:**
+
+### CSD 2.0 - JAMF Integration:
 
 Use the CSD 2.0 along with the Jamf spoke to deploy and revoke software
 deployments from Jamf  server and manage distributions on hosts.
@@ -56,23 +52,25 @@ on Jamf servers. In addition, CSD 2.0 can manage license counts for
 deployed software, revoke software deployed by Jamf without user
 interaction, and manage lease periods.
 
-**Configuration Check:**
+### Configuration Check:
 
 **Verify Provider record:**
 
 Verify that the flows are configured correctly in the provider record.
 
-a.  Navigate to **Client Software Distribution 2.0** \> **Providers**.
+1.  Navigate to **Client Software Distribution 2.0** \> **Providers**.
 
-b.  Open the record **Jamf**.
+2.  Open the record **Jamf**.
 
-> ![](./media/image6.png)
+    <img src="./media/image6.png" style="width:5.9152in;height:1.53979in" />
 
-c.  Verify that the flows are configured correctly in the record.
+3.  Verify that the flows are configured correctly in the record.
 
-> ![](./media/image7.png)
+    <img src="./media/image7.png" style="width:6.26389in;height:1.77708in" />
 
-**Note:** You can configure the default flows as per your requirement.
+    **Note:** You can configure the default flows as per your requirement.
+
+
 
 **Deciding license tables:**
 
@@ -81,9 +79,9 @@ consume license information from SAM (Software Asset Management) tables.
 
 Use the first property shown below to make your choice.
 
-![](./media/image8.png)
+<img src="./media/image8.png" style="width:6.26389in;height:2.79792in" />
 
-Edit other properties as per requirement.
+   **Note:** Edit other properties as per requirement.
 
 Software Asset Management (**SAM**) tables:
 
@@ -96,10 +94,11 @@ Client Software Distribution 2.0 (**CSD 2.0**) tables:
 -   Software Entitlement (sn_csd_license)
 
 -   Software Model (sn_csd_software_product_model)
+  
+  
+## Lab 2:
 
-**Lab 2:**
-
-**Setting up JAMF Spoke:**
+### Setting up JAMF Spoke:
 
 Integrate the ServiceNow instance and Jamf instance using
 the Jamf credential to authenticate ServiceNow requests.
@@ -113,11 +112,11 @@ the Jamf credential to authenticate ServiceNow requests.
 
 2.  Open the record, **Jamf**.
 
-> ![](./media/image9.png)
+    <img src="./media/image9.png" style="width:6.26389in;height:1.55811in" />
 
 3.  Click the **Create New Connection & Credential** related link.
 
-> ![](./media/image10.png)
+    <img src="./media/image10.png" style="width:5.84107in;height:3.30908in" />
 
 4.  On the form, fill the required values.
 
@@ -138,18 +137,18 @@ details of the Jamf server.
 
 2.  Click **New**.
 
-> ![](./media/image11.png)
+    <img src="./media/image11.png" style="width:6.26389in;height:1.54722in" />
 
 3.  On the form, fill the required values.
 
-> ![](./media/image12.png)
+    <img src="./media/image12.png" style="width:6.26389in;height:1.08207in" />
 
 4.  Right-click the form header and click **Submit**.
 
 5.  Click the **Discover Now** related link to discover all applications
     and retrieve data from the server.
 
-> ![](./media/image13.png)
+    <img src="./media/image13.png" style="width:6.26389in;height:1.45486in" />
 
 6.  Discover and Store Data subflow is triggered. Data is retrieved and
     in stored in the Jamf tables.
@@ -161,14 +160,16 @@ Spoke.
 Once subflow execution is complete, data should be populated in Jamf
 spoke tables.
 
-![](./media/image14.png)
+<img src="./media/image14.png"
+style="width:6.26389in;height:2.71111in" />
 
-Discovery subflow populates "*Applications*", "*Groups*" and
-"*Policies*" from Jamf server. Verify it from Jamf Modules.
+Discovery subflow populates “*Applications*”, “*Groups*” and
+“*Policies*” from Jamf server. Verify it from Jamf Modules.
 
-![](./media/image15.png)
+<img src="./media/image15.png"
+style="width:6.46565in;height:1.76336in" />
 
-**Licensing:**
+### Licensing:
 
 Deciding license allocation type:
 
@@ -184,12 +185,10 @@ with **Allocation Type as Device**.
 license check is performed on software entitlements with **Allocation
 Type as User.**
 
-**Create licenses for distributed software using CSD 2.0:**
+### Create licenses for distributed software using CSD 2.0:
 
 Licenses and software counters are associated with the software model
-and must be
-
-created if you want to track the license for software deployed by CSD
+and must be created if you want to track the license for software deployed by CSD
 2.0.
 
 **Role required:**
@@ -208,11 +207,11 @@ than 0, CSD 2.0 assumes that the license is available for the software.
 
 2.  Click New.
 
-![](./media/image16.png)
+   <img src="./media/image16.png" style="width:6.26389in;height:1.77361in" />
 
 3.  On the form, fill the required values.
 
-![](./media/image17.png)
+   <img src="./media/image17.png" style="width:6.26389in;height:2.64583in" />
 
 4.  Click Submit.
 
@@ -220,10 +219,12 @@ The license is created with the required rights.
 
 **Note:** If SAM is used for licensing, make sure to create required
 licenses in Software Entitlement(alm_license) table.
+  
+  
+  
+## Lab 3:
 
-**Lab 3:**
-
-**Configuring catalog item for an application:**
+### Configuring catalog item for an application:**
 
 **Set up a software model:**
 
@@ -243,30 +244,29 @@ a new model.
 **Procedure:**
 
 1.  If you are setting up a software model for the Jamf application,
+    navigate to **Jamf \> Applications.**
 
-> navigate to **Jamf \> Applications.**
-
-A list of applications or policies discovered on the Jamf server
-appears.
+    A list of applications or policies discovered on the Jamf server
+    appears.
 
 2.  Open the required record.
 
-> ![](./media/image18.png)
+    <img src="./media/image18.png" style="width:5.15059in;height:2.10192in" />
 
 3.  To link to an existing model, click the magnifying glass icon in the
     **CSD software**
 
-> **Model(**while using CSD 2.0 license tables**)** field or **SAM
-> software model(**while using SAM license tables**)** and select a
-> model from the list.
+   **Model(**while using CSD 2.0 license tables**)** field or **SAM
+    software model(**while using SAM license tables**)** and select a
+    model from the list.
 
-Form view for SAM licensing:
+    Form view for SAM licensing:
 
-![](./media/image19.png)
+    <img src="./media/image19.png" style="width:4.09795in;height:1.69688in" />
 
-Form view for CSD 2.0 licensing:
+    Form view for CSD 2.0 licensing:
 
-![](./media/image20.png)
+    <img src="./media/image20.png" style="width:5.73462in;height:2.27986in" />
 
 4.  To create a model, click **Create Software Model** under related
     link.
@@ -275,66 +275,56 @@ Form view for CSD 2.0 licensing:
 
 6.  Click **Submit.**
 
-> The view returns to the Jamf Applications list.
->
-> **Define the Jamf configuration:**
->
-> Associate that software with a group through a Jamf configuration to
-> create catalog
->
-> items for Jamf software deployment or to configure your instance to
-> revoke software
->
-> through Jamf.
->
-> **Role required:** sn_jamf_spoke.jamf_admin or admin
->
-> The Jamf configuration process associates software with Jamf groups.
-> To deploy
->
-> software from a Jamf server, the user or device must be a member of a
-> Jamf group
->
-> associated with an install deployment. CSD 2.0 enables you to revoke
-> unentitled
->
-> software using the Jamf server when that software can be removed using
-> the installation group by removing user or device from it.
->
-> Users requesting revokable software from the Service Catalog also have
-> the ability to define lease start and stop dates and request lease
-> extensions.
->
-> Perform these steps for the Jamf applications:
+The view returns to the Jamf Applications list.
 
-1.  After following '**Set up a Software Model'** instructions for a
-    given application, click "New" in "**Configurations**" on the
-    applications's form view or click "Create Software Configuration"
+**Define the Jamf configuration:**
+
+Associate that software with a group through a Jamf configuration to create catalog items for Jamf software deployment or to configure your instance to
+revoke softwarethrough Jamf.
+
+**Role required:** sn_jamf_spoke.jamf_admin or admin
+
+The Jamf configuration process associates software with Jamf groups.
+
+To deploy software from a Jamf server, the user or device must be a member of a Jamf group
+associated with an install deployment. CSD 2.0 enables you to revoke unentitled
+software using the Jamf server when that software can be removed using
+the installation group by removing user or device from it.
+
+
+Users requesting revokable software from the Service Catalog also have
+the ability to define lease start and stop dates and request lease
+extensions.
+
+Perform these steps for the Jamf applications:
+
+1.  After following ‘**Set up a Software Model’** instructions for a
+    given application, click “New” in “**Configurations**” on the
+    applications’s form view or click “Create Software Configuration”
     from related links.
 
-> ![](./media/image21.png)
+
+    <img src="./media/image21.png" style="width:4.93348in;height:1.96519in" />
 
 2.  On the form, fill the required values.
 
-> ![](./media/image22.png)
+    <img src="./media/image22.png" style="width:5.88085in;height:1.03991in" />
 
 3.  Click Submit.
 
-> **Create a catalog item for the Jamf application:**
->
-> Create a catalog item for an application you want to offer for
-> distribution from the
->
-> service catalog using the applications discovered on the Jamf server.
->
-> **Role required:** Ensure that the user has one of the two mentioned
-> set of roles.
+**Create a catalog item for the Jamf application:**
+
+  Create a catalog item for an application you want to offer for
+  distribution from the service catalog using the applications discovered on the Jamf server.
+
+ **Role required:** Ensure that the user has one of the two mentioned
+set of roles.
 
 -   sn_jamf_spoke.jamf_admin, catalog_admin, and sn_csd.CSD Admin
 
 -   admin
 
-> **Procedure:**
+ **Procedure:**
 
 1.  If you are creating a catalog item for the Jamf application,
     navigate to **Jamf \> Applications.**
@@ -343,30 +333,28 @@ Form view for CSD 2.0 licensing:
 
 3.  Click the **Create Catalog Item** related link.
 
-> ![](./media/image23.png){width="3.8355260279965004in"
-> height="1.884595363079615in"}
+ <img src="./media/image23.png" style="width:3.83553in;height:1.8846in" />
 
 4.  On the form, fill the required values.
 
-> ![](./media/image24.png)
+ <img src="./media/image24.png" style="width:6.16964in;height:4.3851in" />
 
 5.  Right-click the form header and click **Save**.
 
 6.  In the **CSD Catalog Item Fulfillment Configuration** tab, open the
     default record and provide these values as per your requirement.
 
-> ![](./media/image25.png)
+  <img src="./media/image25.png" style="width:6.26389in;height:3.36111in" />
 
 7.  Click Update.
 
-> Catalog item is created and is available for ordering from Service
-> Catalog.
+Catalog item is created and is available for ordering from Service Catalog.
 
 8.  To see all CSD 2.0 catalog items, navigate to **Client Software
     Distribution 2.0** \> **Software Items**.
 
-> **Note:** If you are unable to see any of the above fields or tabs,
-> configure the table\'s form view or related lists accordingly.
+**Note:** If you are unable to see any of the above fields or tabs,
+configure the table's form view or related lists accordingly.
 
 **Deployment process**
 
@@ -380,7 +368,7 @@ service catalog order:
 
 1.  If the **Skip approval** check box is cleared in the software
     catalog item, the Order Client Software flow sends the catalog
-    request to the requesting user\'s manager for approval.
+    request to the requesting user's manager for approval.
 
 2.  If the **Check license compliance** check box is selected in the
     software catalog item, the flow performs a software license check
@@ -394,7 +382,7 @@ service catalog order:
 
 *Catalog item order view:*
 
-![](./media/image26.png)
+<img src="./media/image26.png" style="width:5.80921in;height:3.53541in" />
 
 **Note:** The device must have its serial number populated in the device
 table.
@@ -402,31 +390,21 @@ table.
 **Lease start and end dates:**
 
 All software deployed by CSD 2.0 requires users to specify the beginning
-date for the
-
-lease.
+date for the lease.
 
 If the catalog item is configured for revocation (uninstall), the form
-displays the Lease
-
-end field, which allows the requester to define an end date and time for
-the lease. The
-
-system validates user input in these fields to ensure that the dates
-selected define a
-
-future window. The Lease end field is not mandatory and can be left
-blank to order
-
-software with no end date.
+displays the Lease end field, which allows the requester to define an end date and time for
+the lease. The system validates user input in these fields to ensure that the dates
+selected define a future window. The Lease end field is not mandatory and can be left
+blank to order software with no end date.
 
 **Viewing Requested Software:**
 
 Navigate to Client **Software Distribution 2.0 \> Requested Software.**
 
-![](./media/image27.png)
+<img src="./media/image27.png" style="width:6.96735in;height:1.70322in" />
 
-**Bonus Lab:**
+## Bonus Lab:
 
 **Extending Software Lease:**
 
@@ -455,9 +433,9 @@ Ensure that the user has one of the two mentioned set of roles.
 4.  In the dialog box that appears, select a new lease end date in the
     calendar and
 
-> click **OK**. You must select a date later than the current date.
+click **OK**. You must select a date later than the current date.
 
-![](./media/image28.png)
+  <img src="./media/image28.png" style="width:5.55848in;height:2.80759in" />
 
 **Revoke Software:**
 
@@ -482,4 +460,5 @@ Ensure that the user has one of the two mentioned set of roles.
 
 3.  Under Related Links click **Revoke Software**
 
-![](./media/image29.png)
+<img src="./media/image29.png" style="width:5.49269in;height:1.50166in" />
+
