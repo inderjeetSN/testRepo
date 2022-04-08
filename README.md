@@ -79,7 +79,7 @@ consume license information from SAM (Software Asset Management) tables.
 
 Use the first property shown below to make your choice.
 
-<img src="./media/image8.png" style="width:6.26389in;height:2.79792in" />
+<img src="./media/image8.png" style="width:6.26389in;height:1.77708in" />
 
    **Note:** Edit other properties as per requirement.
 
