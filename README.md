@@ -20,7 +20,7 @@ This lab guide will walk you through the process of using JAMF software provider
 3.	Search for “Client Software Distribution 2.0” and install it. Perform same action for “Jamf Spoke”.
 
 <img src="./media/image1.png"
-style="width:6.26389in;height:1.89792in" />
+style="width:8.26389in;height:2.89792in" />
 
 <img src="./media/image1.png"
 style="width:6.26389in;height:1.89792in" />
