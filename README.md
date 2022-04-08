@@ -1,8 +1,8 @@
-#Ignite IT service productivity with Client Software Distribution 2.0
+# Ignite IT service productivity with Client Software Distribution 2.0
 
-##Lab 1:
+## Lab 1:
 
-###Overview:
+### Overview:
 
 *Client Software Distribution 2.0* application (*CSD 2.0*) application
 enables administrators to distribute software from the service catalog
