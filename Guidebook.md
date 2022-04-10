@@ -255,9 +255,7 @@ a new model.
     <img src="./media/image18.png" style="width:5.15059in;height:2.10192in" />
 
 3.  To link to an existing model, click the magnifying glass icon in the
-    **CSD software**
-
-   **Model(**while using CSD 2.0 license tables**)** field or **SAM
+    **CSD software Model(**while using CSD 2.0 license tables**)** field or **SAM
     software model(**while using SAM license tables**)** and select a
     model from the list.
 
