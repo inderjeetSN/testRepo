@@ -192,9 +192,7 @@ and must be created if you want to track the license for software deployed by CS
 
 sn_csd.CSD Admin
 
-You can create software licenses in CSD 2.0 for software items deployed
-
-from the service catalog by CSD 2.0. If Allocations Available is greater
+You can create software licenses in CSD 2.0 for software items deployed from the service catalog by CSD 2.0. If Allocations Available is greater
 than 0, CSD 2.0 assumes that the license is available for the software.
 
 **Procedure:**
