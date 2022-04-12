@@ -395,6 +395,16 @@ Navigate to Client **Software Distribution 2.0 \> Requested Software.**
 
 <img src="./media/image27.png" style="width:6.96735in;height:1.70322in" />
 
+Once **Deploy Client Software's** execution is complete, to verify if software is available on the device, follow these steps:
+
+1. Login to JAMF instance.
+2. Navigate to **Computers**(if it's a mac) or **Devices**(if it's an iPhone).
+3. Select **Search Inventory** from left nav bar and click **Search**.
+4. List of available devices will be shown. Select the required device.
+5. Navigate to **Management** tab and select **Apps**.
+6. Ordered application will be availalble in the scope of given device.
+
+
 ## Bonus Lab:
 
 **Extending Software Lease:**
@@ -449,7 +459,16 @@ Ensure that the user has one of the two mentioned set of roles.
 2.  Select the record for the installed software whose lease you want to
     extend.
 
-3.  Under Related Links click **Revoke Software**
+3.  Under Related Links click **Revoke Software**. This will trigger **Revoke Client Software** flow which triggers provider specific revoke flow.
 
 <img src="./media/image29.png" style="width:5.49269in;height:1.50166in" />
+
+Once **Revoke Client Software's** execution is complete, to verify if software is removed from the device, follow these steps:
+
+1. Login to JAMF instance.
+2. Navigate to **Computers**(if it's a mac) or **Devices**(if it's an iPhone).
+3. Select **Search Inventory** from left nav bar and click **Search**.
+4. List of available devices will be shown. Select the required device.
+5. Navigate to **Management** tab and select **Apps**.
+6. Removed application will not be available in the scope of given device.
 
