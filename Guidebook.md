@@ -175,15 +175,11 @@ style="width:6.46565in;height:1.76336in" />
 Deciding license allocation type:
 
 1.  If Group specified in Software Configuration (that is linked with
-    catalog item) is of type **Mobile or**
-
-**Computer**, the license check is performed on software entitlements
+    catalog item) is of type **Mobile or Computer**, the license check is performed on software entitlements
 with **Allocation Type as Device**.
 
 2.  If Group specified in Software Configuration (that is linked with
-    catalog item) is of type **User**, the
-
-license check is performed on software entitlements with **Allocation
+    catalog item) is of type **User**, the license check is performed on software entitlements with **Allocation
 Type as User.**
 
 ### Create licenses for distributed software using CSD 2.0:
