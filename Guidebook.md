@@ -352,9 +352,7 @@ configure the table's form view or related lists accordingly.
 **Deployment process**
 
 Order an application from a CSD 2.0 catalog item in the service catalog
-triggers the
-
-**Order Client Software** flow.
+triggers the **Order Client Software** flow.
 
 This process deploys an application to a user or device through a
 service catalog order:
