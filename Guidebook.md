@@ -213,7 +213,7 @@ than 0, CSD 2.0 assumes that the license is available for the software.
 The license is created with the required rights.
 
 **Note:** If SAM is used for licensing, make sure to create required
-licenses in Software Entitlement(alm_license) table.
+licenses in Software Entitlement(alm_license) table. [SAM license creation](https://docs.servicenow.com/bundle/rome-servicenow-platform/page/administer/integrationhub-store-spokes/task/csd2-license.html)
   
   
   
