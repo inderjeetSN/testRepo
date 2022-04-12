@@ -335,7 +335,7 @@ set of roles.
 5.  Right-click the form header and click **Save**.
 
 6.  In the **CSD Catalog Item Fulfillment Configuration** tab, open the
-    default record and provide these values as per your requirement.
+    default record and provide these values as per your requirement. If license check is to be performed, set 'Check License Compliance' to true. Similarly, if manager approval is required, set 'Skip Approval' to false.
 
   <img src="./media/image25.png" style="width:6.26389in;height:3.36111in" />
 
