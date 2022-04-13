@@ -401,7 +401,7 @@ Once **Deploy Client Software's** execution is complete, to verify if software i
 2. Navigate to **Computers**(if it's a mac) or **Devices**(if it's an iPhone).
 3. Select **Search Inventory** from left nav bar and click **Search**.
 4. List of available devices will be shown. Select the required device.
-5. Navigate to **Management** tab and select **Apps**.
+5. Navigate to **Management** tab and select **Apps**(if it's an iPhone) or **Mac App Store Apps**(if it's a Mac).
 6. Ordered application will be availalble in the scope of given device.
 
 
@@ -469,6 +469,6 @@ Once **Revoke Client Software's** execution is complete, to verify if software i
 2. Navigate to **Computers**(if it's a mac) or **Devices**(if it's an iPhone).
 3. Select **Search Inventory** from left nav bar and click **Search**.
 4. List of available devices will be shown. Select the required device.
-5. Navigate to **Management** tab and select **Apps**.
+5. Navigate to **Management** tab and select **Apps**(if it's an iPhone) or **Mac App Store Apps**(if it's a Mac).
 6. Removed application will not be available in the scope of given device.
 
