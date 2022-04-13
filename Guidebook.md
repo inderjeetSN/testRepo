@@ -371,9 +371,13 @@ service catalog order:
     Software** flow that in turn triggers the provider-specific
     **Deployment Flow** that is specified in the provider record.
 
-*Catalog item order view:*
+*Catalog item order view on platform:*
 
 <img src="./media/image26.png" style="width:5.80921in;height:3.53541in" />
+
+*Catalog item order view on Service Portal:*
+
+<img src="./media/image30.png"/>
 
 **Note:** The device must have its serial number populated in the device
 table.
