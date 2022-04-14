@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-04-13 18:46:24">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<application_name>Client Software Distribution 2.0</application_name>
+<application_scope>sn_csd</application_scope>
+<application_version>1.0.2</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>K22 Update Set 2</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>c99825e887e84d10dff4a7d73cbb35d4</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>e5f71d9687f24d50dff4a7d73cbb3563</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_723f89de87b24d50dff4a7d73cbb3559</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:11:45">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>Foxit PDF Reader</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>Foxit PDF Reader</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - Foxit PDF Reader</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:14</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>723f89de87b24d50dff4a7d73cbb3559</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:14</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>21f71d9687f24d50dff4a7d73cbb3566</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>Foxit PDF Reader</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_b63f89de87b24d50dff4a7d73cbb3558</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:11:42">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>Evernote</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>Evernote</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - Evernote</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:14</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>b63f89de87b24d50dff4a7d73cbb3558</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:14</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>2df71d9687f24d50dff4a7d73cbb3566</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>Evernote</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_fa3f89de87b24d50dff4a7d73cbb3557</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:12:12">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>OTP Manager</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>OTP Manager</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - OTP Manager</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:14</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>fa3f89de87b24d50dff4a7d73cbb3557</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:14</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>65f71d9687f24d50dff4a7d73cbb3567</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>OTP Manager</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_b23f89de87b24d50dff4a7d73cbb355b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:12:03">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>OmniGraffle 7</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>OmniGraffle 7</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - OmniGraffle 7</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:14</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>b23f89de87b24d50dff4a7d73cbb355b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:14</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>69f71d9687f24d50dff4a7d73cbb3566</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>OmniGraffle 7</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_3e3f89de87b24d50dff4a7d73cbb3559</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:11:49">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>Mactracker</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>Mactracker</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - Mactracker</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:14</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>3e3f89de87b24d50dff4a7d73cbb3559</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:14</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>6df71d9687f24d50dff4a7d73cbb3565</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>Mactracker</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_f63f89de87b24d50dff4a7d73cbb355a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:12:09">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>OneDrive</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>OneDrive</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - OneDrive</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:14</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>f63f89de87b24d50dff4a7d73cbb355a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:14</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>a1f71d9687f24d50dff4a7d73cbb3567</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>OneDrive</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_7e3f89de87b24d50dff4a7d73cbb3554</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:11:56">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>Microsoft OneNote</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>Microsoft OneNote</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - Microsoft OneNote</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:13</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>7e3f89de87b24d50dff4a7d73cbb3554</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:13</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>a5f71d9687f24d50dff4a7d73cbb3566</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>Microsoft OneNote</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_323f89de87b24d50dff4a7d73cbb3557</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:12:00">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>Microsoft Word</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>Microsoft Word</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - Microsoft Word</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:13</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>323f89de87b24d50dff4a7d73cbb3557</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:13</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>a9f71d9687f24d50dff4a7d73cbb3565</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>Microsoft Word</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_763f89de87b24d50dff4a7d73cbb3556</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:11:53">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>Microsoft Excel</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>Microsoft Excel</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - Microsoft Excel</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:13</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>763f89de87b24d50dff4a7d73cbb3556</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:13</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>e1f71d9687f24d50dff4a7d73cbb3566</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>Microsoft Excel</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_ba3f89de87b24d50dff4a7d73cbb3555</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:12:16">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>Slack for Desktop</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>Slack for Desktop</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - Slack for Desktop</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:08:13</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>ba3f89de87b24d50dff4a7d73cbb3555</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:08:13</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:46:23</sys_created_on>
+<sys_id>edf71d9687f24d50dff4a7d73cbb3566</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18024334f000000000</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:46:23</sys_updated_on>
+<table/>
+<target_name>Slack for Desktop</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_037ad15a87f24d50dff4a7d73cbb359c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:58:49">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>Adobe Acrobat Reader: Edit PDF</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>Adobe Acrobat Reader: Edit PDF</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - Adobe Acrobat Reader: Edit PDF</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:57:24</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>037ad15a87f24d50dff4a7d73cbb359c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:57:24</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 19:02:27</sys_created_on>
+<sys_id>85abd19a87f24d50dff4a7d73cbb3546</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_recorded_at>18024454a580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 19:02:53</sys_updated_on>
+<table/>
+<target_name>Adobe Acrobat Reader: Edit PDF</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value="K22 Update Set 2">da69ddd687f24d50dff4a7d73cbb3580</update_set>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Client Software Distribution 2.0">d56d7b81c31230105e0599ccc840ddbf</application>
+<category/>
+<comments/>
+<name>sn_csd_software_product_model_4f7ad15a87f24d50dff4a7d73cbb359d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 18:59:02">
+<sn_csd_software_product_model action="INSERT_OR_UPDATE">
+<acquisition_method/>
+<asset_tracking_strategy>leave_to_category</asset_tracking_strategy>
+<asset_tracking_unit display_value="Individual Unit">51a74add0f233300fee7579ac4767e59</asset_tracking_unit>
+<barcode/>
+<bundle>false</bundle>
+<certified>false</certified>
+<cmdb_ci_class/>
+<cmdb_model_category/>
+<comments/>
+<depreciation display_value=""/>
+<description/>
+<display_name>Jamf Self Service</display_name>
+<expenditure_type/>
+<flow_rate/>
+<full_name/>
+<iso_serial_number/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<main_component display_value=""/>
+<manufacturer display_value=""/>
+<model_number/>
+<name>Jamf Self Service</name>
+<owner display_value=""/>
+<picture/>
+<power_consumption/>
+<product_catalog_item display_value=""/>
+<rack_units>1</rack_units>
+<short_description>Sample software model record for - Jamf Self Service</short_description>
+<sla/>
+<sound_power/>
+<status>In Production</status>
+<sys_class_name>sn_csd_software_product_model</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 18:57:24</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>4f7ad15a87f24d50dff4a7d73cbb359d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 18:57:24</sys_updated_on>
+<type>Generic</type>
+<weight/>
+</sn_csd_software_product_model>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 2">e5f71d9687f24d50dff4a7d73cbb3563</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 19:01:33</sys_created_on>
+<sys_id>847b119a87f24d50dff4a7d73cbb35a0</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_recorded_at>18024454a580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 19:01:59</sys_updated_on>
+<table/>
+<target_name>Jamf Self Service</target_name>
+<type>Software Models</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value="K22 Update Set 2">da69ddd687f24d50dff4a7d73cbb3580</update_set>
+<view/>
+</sys_update_xml>
+</unload>

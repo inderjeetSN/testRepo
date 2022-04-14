@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-04-13 17:26:18">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>K22 Update Set 1</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>c14fb0de87724d50dff4a7d73cbb3509</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>inderjee.singh@snc</sys_created_by>
+<sys_created_on>2022-04-13 17:26:17</sys_created_on>
+<sys_id>e8a5895687b24d50dff4a7d73cbb35fa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>inderjee.singh@snc</sys_updated_by>
+<sys_updated_on>2022-04-13 17:26:17</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Global">global</application>
+<category/>
+<comments/>
+<name>sys_user_9eda389a87724d50dff4a7d73cbb35ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 17:09:55">
+<sys_user action="INSERT_OR_UPDATE">
+<accumulated_roles/>
+<active>true</active>
+<avatar/>
+<building display_value=""/>
+<calendar_integration>1</calendar_integration>
+<city/>
+<company display_value=""/>
+<cost_center display_value=""/>
+<country/>
+<date_format/>
+<default_perspective display_value=""/>
+<department display_value=""/>
+<edu_status>faculty</edu_status>
+<email>k22_test_user@example.com</email>
+<employee_number/>
+<enable_multifactor_authn>false</enable_multifactor_authn>
+<failed_attempts/>
+<first_name>K22 Test</first_name>
+<gender/>
+<home_phone/>
+<internal_integration_user>false</internal_integration_user>
+<introduction/>
+<last_login/>
+<last_login_device/>
+<last_login_time/>
+<last_name>User</last_name>
+<last_password/>
+<ldap_server display_value=""/>
+<location display_value=""/>
+<locked_out>false</locked_out>
+<manager display_value="K22 Test  Manager">512b3c9a87724d50dff4a7d73cbb35f0</manager>
+<middle_name/>
+<mobile_phone/>
+<name>K22 Test User</name>
+<notification>2</notification>
+<password_needs_reset>false</password_needs_reset>
+<phone/>
+<photo/>
+<preferred_language>en</preferred_language>
+<roles/>
+<schedule display_value=""/>
+<source/>
+<state/>
+<street/>
+<sys_class_name>sys_user</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 16:40:21</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>9eda389a87724d50dff4a7d73cbb35ab</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 16:41:55</sys_updated_on>
+<time_format/>
+<time_zone/>
+<title/>
+<user_name>k22_test_user</user_name>
+<user_password/>
+<vip>false</vip>
+<web_service_access_only>false</web_service_access_only>
+<zip/>
+</sys_user>
+</unload>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 1">e8a5895687b24d50dff4a7d73cbb35fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>inderjee.singh@snc</sys_created_by>
+<sys_created_on>2022-04-13 17:26:17</sys_created_on>
+<sys_id>28a50d5687b24d50dff4a7d73cbb35f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18023f309e00000000</sys_recorded_at>
+<sys_updated_by>inderjee.singh@snc</sys_updated_by>
+<sys_updated_on>2022-04-13 17:26:17</sys_updated_on>
+<table/>
+<target_name>K22 Test User</target_name>
+<type>Users</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Global">global</application>
+<category/>
+<comments/>
+<name>sys_user_512b3c9a87724d50dff4a7d73cbb35f0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 17:09:51">
+<sys_user action="INSERT_OR_UPDATE">
+<accumulated_roles/>
+<active>true</active>
+<avatar/>
+<building display_value=""/>
+<calendar_integration>1</calendar_integration>
+<city/>
+<company display_value=""/>
+<cost_center display_value=""/>
+<country/>
+<date_format/>
+<default_perspective display_value=""/>
+<department display_value=""/>
+<edu_status>faculty</edu_status>
+<email>k22_test_manager@example.com</email>
+<employee_number/>
+<enable_multifactor_authn>false</enable_multifactor_authn>
+<failed_attempts/>
+<first_name>K22 Test </first_name>
+<gender/>
+<home_phone/>
+<internal_integration_user>false</internal_integration_user>
+<introduction/>
+<last_login/>
+<last_login_device/>
+<last_login_time/>
+<last_name>Manager</last_name>
+<last_password/>
+<ldap_server display_value=""/>
+<location display_value=""/>
+<locked_out>false</locked_out>
+<manager display_value=""/>
+<middle_name/>
+<mobile_phone/>
+<name>K22 Test  Manager</name>
+<notification>2</notification>
+<password_needs_reset>false</password_needs_reset>
+<phone/>
+<photo/>
+<preferred_language/>
+<roles/>
+<schedule display_value=""/>
+<source/>
+<state/>
+<street/>
+<sys_class_name>sys_user</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 16:41:13</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>512b3c9a87724d50dff4a7d73cbb35f0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 16:41:13</sys_updated_on>
+<time_format/>
+<time_zone/>
+<title/>
+<user_name>k22_test_manager</user_name>
+<user_password/>
+<vip>false</vip>
+<web_service_access_only>false</web_service_access_only>
+<zip/>
+</sys_user>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 1">e8a5895687b24d50dff4a7d73cbb35fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>inderjee.singh@snc</sys_created_by>
+<sys_created_on>2022-04-13 17:26:17</sys_created_on>
+<sys_id>64a50d5687b24d50dff4a7d73cbb35f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18023f309e00000000</sys_recorded_at>
+<sys_updated_by>inderjee.singh@snc</sys_updated_by>
+<sys_updated_on>2022-04-13 17:26:17</sys_updated_on>
+<table/>
+<target_name>K22 Test Manager</target_name>
+<type>Users</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Global">global</application>
+<category/>
+<comments/>
+<name>cmdb_ci_computer_e3cbb4da87724d50dff4a7d73cbb350e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 17:13:24">
+<cmdb_ci_computer action="INSERT_OR_UPDATE">
+<asset/>
+<asset_tag/>
+<assigned/>
+<assigned_to display_value="K22 Test User">9eda389a87724d50dff4a7d73cbb35ab</assigned_to>
+<assignment_group display_value=""/>
+<attestation_score/>
+<attested>false</attested>
+<attested_by display_value=""/>
+<attested_date/>
+<attributes/>
+<business_unit display_value=""/>
+<can_print>false</can_print>
+<category>Hardware</category>
+<cd_rom>false</cd_rom>
+<cd_speed/>
+<change_control display_value=""/>
+<chassis_type/>
+<checked_in/>
+<checked_out/>
+<comments/>
+<company display_value=""/>
+<correlation_id/>
+<cost/>
+<cost_cc>USD</cost_cc>
+<cost_center display_value=""/>
+<cpu_core_count/>
+<cpu_core_thread/>
+<cpu_count/>
+<cpu_manufacturer display_value=""/>
+<cpu_name/>
+<cpu_speed/>
+<cpu_type/>
+<default_gateway/>
+<delivery_date/>
+<department display_value=""/>
+<discovery_source/>
+<disk_space/>
+<dns_domain/>
+<due/>
+<due_in/>
+<duplicate_of display_value=""/>
+<environment/>
+<fault_count>0</fault_count>
+<first_discovered/>
+<floppy/>
+<form_factor/>
+<fqdn/>
+<gl_account/>
+<hardware_status>installed</hardware_status>
+<hardware_substatus/>
+<install_date/>
+<install_status>1</install_status>
+<internet_facing>true</internet_facing>
+<invoice_number/>
+<ip_address/>
+<justification/>
+<last_discovered/>
+<lease_id/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<location display_value=""/>
+<mac_address/>
+<maintenance_schedule display_value=""/>
+<managed_by display_value=""/>
+<managed_by_group display_value=""/>
+<manufacturer display_value=""/>
+<model_id display_value="Unknown">ae2f2ca1870885104b64a9773cbb357c</model_id>
+<model_number/>
+<monitor>false</monitor>
+<most_frequent_user display_value=""/>
+<name>K22 Test MacBook Pro</name>
+<object_id/>
+<operational_status>1</operational_status>
+<order_date/>
+<os/>
+<os_address_width/>
+<os_domain/>
+<os_service_pack/>
+<os_version/>
+<owned_by display_value=""/>
+<po_number/>
+<processor_name display_value=""/>
+<purchase_date/>
+<ram/>
+<schedule display_value=""/>
+<serial_number>C02FD2RUMD6M</serial_number>
+<short_description/>
+<skip_sync>false</skip_sync>
+<start_date/>
+<subcategory>Computer</subcategory>
+<support_group display_value=""/>
+<supported_by display_value=""/>
+<sys_class_name>cmdb_ci_computer</sys_class_name>
+<sys_class_path>/!!/!2/!(</sys_class_path>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 16:43:47</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>e3cbb4da87724d50dff4a7d73cbb350e</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 16:45:01</sys_updated_on>
+<unverified>false</unverified>
+<vendor display_value=""/>
+<virtual>false</virtual>
+<warranty_expiration/>
+</cmdb_ci_computer>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 1">e8a5895687b24d50dff4a7d73cbb35fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>inderjee.singh@snc</sys_created_by>
+<sys_created_on>2022-04-13 17:26:17</sys_created_on>
+<sys_id>a0a50d5687b24d50dff4a7d73cbb35f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18023ef73e80000000</sys_recorded_at>
+<sys_updated_by>inderjee.singh@snc</sys_updated_by>
+<sys_updated_on>2022-04-13 17:26:17</sys_updated_on>
+<table/>
+<target_name>K22 Test MacBook Pro</target_name>
+<type>Computers</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Global">global</application>
+<category/>
+<comments/>
+<name>sys_user_has_role_3abfb8de87724d50dff4a7d73cbb35d0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 17:11:54">
+<sys_user_has_role action="INSERT_OR_UPDATE">
+<granted_by display_value="">not-applicable</granted_by>
+<included_in_role display_value=""/>
+<included_in_role_instance display_value=""/>
+<inh_count/>
+<inh_map/>
+<inherited>false</inherited>
+<role display_value="approver_user" name="approver_user">debab85bff02110053ccffffffffffb6</role>
+<state>active</state>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 17:00:30</sys_created_on>
+<sys_id>3abfb8de87724d50dff4a7d73cbb35d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 17:00:30</sys_updated_on>
+<user display_value="K22 Test  Manager">512b3c9a87724d50dff4a7d73cbb35f0</user>
+</sys_user_has_role>
+</unload>
+]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 1">e8a5895687b24d50dff4a7d73cbb35fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>inderjee.singh@snc</sys_created_by>
+<sys_created_on>2022-04-13 17:26:17</sys_created_on>
+<sys_id>e8a50d5687b24d50dff4a7d73cbb35f9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18023f45db80000000</sys_recorded_at>
+<sys_updated_by>inderjee.singh@snc</sys_updated_by>
+<sys_updated_on>2022-04-13 17:26:17</sys_updated_on>
+<table/>
+<target_name>approver_user</target_name>
+<type>User Roles</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action/>
+<application display_value="Global">global</application>
+<category/>
+<comments/>
+<name>cmdb_ci_computer_338b74da87724d50dff4a7d73cbb35e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2022-04-13 17:12:52">
+<cmdb_ci_computer action="INSERT_OR_UPDATE">
+<asset/>
+<asset_tag/>
+<assigned/>
+<assigned_to display_value="K22 Test User">9eda389a87724d50dff4a7d73cbb35ab</assigned_to>
+<assignment_group display_value=""/>
+<attestation_score/>
+<attested>false</attested>
+<attested_by display_value=""/>
+<attested_date/>
+<attributes/>
+<business_unit display_value=""/>
+<can_print>false</can_print>
+<category>Hardware</category>
+<cd_rom>false</cd_rom>
+<cd_speed/>
+<change_control display_value=""/>
+<chassis_type/>
+<checked_in/>
+<checked_out/>
+<comments/>
+<company display_value=""/>
+<correlation_id/>
+<cost/>
+<cost_cc>USD</cost_cc>
+<cost_center display_value=""/>
+<cpu_core_count/>
+<cpu_core_thread/>
+<cpu_count/>
+<cpu_manufacturer display_value=""/>
+<cpu_name/>
+<cpu_speed/>
+<cpu_type/>
+<default_gateway/>
+<delivery_date/>
+<department display_value=""/>
+<discovery_source/>
+<disk_space/>
+<dns_domain/>
+<due/>
+<due_in/>
+<duplicate_of display_value=""/>
+<environment/>
+<fault_count>0</fault_count>
+<first_discovered/>
+<floppy/>
+<form_factor/>
+<fqdn/>
+<gl_account/>
+<hardware_status>installed</hardware_status>
+<hardware_substatus/>
+<install_date/>
+<install_status>1</install_status>
+<internet_facing>true</internet_facing>
+<invoice_number/>
+<ip_address/>
+<justification/>
+<last_discovered/>
+<lease_id/>
+<life_cycle_stage display_value=""/>
+<life_cycle_stage_status display_value=""/>
+<location display_value=""/>
+<mac_address/>
+<maintenance_schedule display_value=""/>
+<managed_by display_value=""/>
+<managed_by_group display_value=""/>
+<manufacturer display_value=""/>
+<model_id display_value="Unknown">ae2f2ca1870885104b64a9773cbb357c</model_id>
+<model_number/>
+<monitor>false</monitor>
+<most_frequent_user display_value=""/>
+<name>K22 Test iPhone</name>
+<object_id/>
+<operational_status>1</operational_status>
+<order_date/>
+<os/>
+<os_address_width/>
+<os_domain/>
+<os_service_pack/>
+<os_version/>
+<owned_by display_value=""/>
+<po_number/>
+<processor_name display_value=""/>
+<purchase_date/>
+<ram/>
+<schedule display_value=""/>
+<serial_number>GV4F61W8N73F</serial_number>
+<short_description/>
+<skip_sync>false</skip_sync>
+<start_date/>
+<subcategory>Computer</subcategory>
+<support_group display_value=""/>
+<supported_by display_value=""/>
+<sys_class_name>cmdb_ci_computer</sys_class_name>
+<sys_class_path>/!!/!2/!(</sys_class_path>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-04-13 16:43:18</sys_created_on>
+<sys_domain>global</sys_domain>
+<sys_domain_path>/</sys_domain_path>
+<sys_id>338b74da87724d50dff4a7d73cbb35e4</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-04-13 16:45:04</sys_updated_on>
+<unverified>false</unverified>
+<vendor display_value=""/>
+<virtual>false</virtual>
+<warranty_expiration/>
+</cmdb_ci_computer>
+</unload>]]></payload>
+<payload_hash/>
+<remote_update_set display_value="K22 Update Set 1">e8a5895687b24d50dff4a7d73cbb35fa</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>inderjee.singh@snc</sys_created_by>
+<sys_created_on>2022-04-13 17:26:17</sys_created_on>
+<sys_id>eca50d5687b24d50dff4a7d73cbb35f8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18023ef73e80000000</sys_recorded_at>
+<sys_updated_by>inderjee.singh@snc</sys_updated_by>
+<sys_updated_on>2022-04-13 17:26:17</sys_updated_on>
+<table/>
+<target_name>K22 Test iPhone</target_name>
+<type>Computers</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
