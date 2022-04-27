@@ -17,7 +17,7 @@ This guide will walk you through the process of using JAMF software provider thr
 
 1.	Navigate to Plugins from navigator.
 2.	List of  all available applications will be displayed.
-3.	Search for “Client Software Distribution 2.0” and install it. Perform same action for “Jamf Spoke”.
+3.	Search for “Client Software Distribution 2.0” and install it. Perform same action for “Jamf Spoke”, "ServiceNow IntegrationHub Enterprise Pack Installer".
 	
 
 ![Installing CSD 2.0](media/image1.png)
