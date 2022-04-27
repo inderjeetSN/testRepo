@@ -1,7 +1,7 @@
 # Ignite IT service productivity with Client Software Distribution 2.0
 
 
-## Lab 1:
+## Section 1:
 
 ### Overview
 
@@ -10,7 +10,7 @@ CSD 2.0 enables an administrator to create all the records necessary to deploy s
 
 You can use the CSD 2.0 application to automate the deployment and revocation of software from a third-party software provider using the custom flows. Deployment and revocation is accomplished using provider-specific spoke flows, sub-flows, and actions. 
 
-This lab guide will walk you through the process of using JAMF software provider through CSD 2.0.
+This guide will walk you through the process of using JAMF software provider through CSD 2.0.
 
 
 ### Installation:
@@ -97,7 +97,7 @@ Client Software Distribution 2.0 (**CSD 2.0**) tables:
 -   Software Model (sn_csd_software_product_model)
   
   
-## Lab 2:
+## Section 2:
 
 ### Setting up JAMF Spoke:
 
@@ -217,7 +217,7 @@ licenses in Software Entitlement(alm_license) table. [SAM license creation](http
   
   
   
-## Lab 3:
+## Section 3:
 
 ### Configuring catalog item for an application:**
 
@@ -409,7 +409,7 @@ Once **Deploy Client Software's** execution is complete, to verify if software i
 6. Ordered application will be availalble in the scope of given device.
 
 
-## Bonus Lab:
+## Bonus Section:
 
 **Extending Software Lease:**
 
